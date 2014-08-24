@@ -1,0 +1,10 @@
+According the graphs, some abnormalies. Heap Sort is not the fastest one or merge sort is not fast enough comparing the other sorts. 
+This happend because of nature of Java programming language, I guess. But I don't know real reason behind.
+Also I do not run quickSort and CormenQuickSort on larger than 10.000 elements because it is blowing, Java stack over flow problem. These functions working recursively so they are blowing.
+Lastly, quickSort and mergeSort working really slowly on ordered array even slower than insertion sort because inorder to check whether an array is sorted, it is checking with every elemnt on array.
+---
+informal observations about sorts comparison
+
+Kemal Akkoyun
+11076004
+
